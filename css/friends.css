@@ -1,0 +1,19 @@
+.friends .birthday__list {
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+.friends .channel__list {
+  border-bottom: 1px solid #dfdfdf;
+}
+.friends .reference__list {
+  border-bottom: 1px solid #dfdfdf;
+}
+.reference__list .friends__title,
+.birthday__list .friends__title,
+.friends__list .friends__title,
+.channel__list .friends__title {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 13px;
+}

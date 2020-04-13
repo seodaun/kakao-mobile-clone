@@ -1,0 +1,109 @@
+.chat__screen {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #abc0d1;
+}
+.chat__header {
+  background-color: #94b5d1;
+}
+.chat__timestamp {
+  background-color: red;
+}
+.chat__write .chat__write-column {
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.chat__write .chat__write-input {
+  margin-left: 60px;
+  padding-left: 20px;
+  margin-top: 5px;
+  position: absolute;
+  height: 30px;
+  border-radius: 2em;
+  font-size: 22px;
+  box-shadow: none;
+  background-color: rgb(235, 235, 235);
+}
+.chat__write-column .fa-plus-square {
+  margin-top: 3px;
+  margin-left: 15px;
+}
+.chat__messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat__messages .chat__timestamp {
+  padding: 5px 10px;
+  background-color: #aab1b6;
+  border-radius: 2em;
+  color: white;
+  margin-bottom: 30px;
+}
+.receive {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.receive .receive__column {
+  padding-left: 15px;
+  display: flex;
+}
+.receive__column:first-child .receive__contents .msg__author {
+  align-items: center;
+  display: block;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.receive__column:first-child .receive__contents .msg__bubble {
+  display: flex;
+  margin: 6px 7px;
+  padding: 7px 10px;
+  background-color: #f9f9f9;
+  border-radius: 7px;
+}
+.receive__column:first-child .receive__contents .msg__bubble.first {
+  border-top-left-radius: 0;
+}
+.receive__column:last-child .timestamp {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.send {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+.send .send__contents {
+  margin-right: 17px;
+}
+.send__contents .msg__bubble {
+  margin: 6px 7px;
+  padding: 7px 10px;
+  background-color: #ebff35;
+  border-radius: 5px;
+}
+.send__contents .msg__bubble.first {
+  border-top-right-radius: 0;
+}
+.send__column .timestamp {
+  margin-right: 7px;
+  font-size: 14px;
+  opacity: 0.7;
+  margin-left: 7px;
+}

@@ -1,0 +1,76 @@
+.profile .friend__now-listening {
+  border: 1.5px solid #52e084;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.profile .friend__present-emoticon {
+  border: 1.5px solid #e08652;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.friend__now-listening span {
+  margin-right: 10px;
+  opacity: 0.6;
+}
+
+.friend__now-listening i {
+  font-size: 12px;
+}
+.friend__content .friend__email {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.profile {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile__column {
+  display: flex;
+  align-items: center;
+}
+.profile .profile__content {
+  margin-left: 15px;
+}
+.profile__content .profile__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.profile__content .profile__status {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.profile__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 1.2em;
+}
+.m-avatar.profile__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 42%;
+}
+
+.g-avatar.profile__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 42%;
+}
+
+.profile.timestamp {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.friends__channel .profile__name {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.profile .profile__cnt {
+  font-size: 14px;
+  opacity: 0.6;
+}

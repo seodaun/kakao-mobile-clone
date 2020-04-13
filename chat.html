@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/883560396c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chat | Kakao Clone</title>
+  </head>
+  <body>
+    <div class="chat__screen">
+      <div class="chat__header">
+        <div class="status-bar">
+          <div class="status-bar__column">
+            <span class="status-bar_clock">13:53</span>
+          </div>
+          <div class="status-bar__column">
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-three-quarters"></i>
+          </div>
+        </div>
+        <header class="header">
+          <div class="header__header-column">
+            <div class="header__back-btn">
+              <a href="index.html">
+                <i class="fas fa-arrow-left"></i>
+              </a>
+            </div>
+            <h1 class="header__title">윤태훈</h1>
+          </div>
+          <div class="header__header-column">
+            <span class="header__icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+              <i class="fas fa-bars"></i>
+            </span>
+          </div>
+        </header>
+      </div>
+      <main class="chat">
+        <ul class="chat__messages">
+          <span class="chat__timestamp">
+            2020년 3월 3일 화요일
+          </span>
+          <li class="receive">
+            <div class="receive__column">
+              <img src="img/person_1.jpg" class="m-avater profile__avatar" />
+              <div class="receive__contents">
+                <span class="msg__author">윤태훈</span>
+                <div class="msg__bubble first">배고파</div>
+                <div class="msg__bubble">밥줘</div>
+              </div>
+            </div>
+            <div class="receive__column">
+              <span class="timestamp">
+                오전 12시59분
+              </span>
+            </div>
+          </li>
+          <li class="send">
+            <div class="send__column">
+              <div class="send__contents">
+                <div class="msg__bubble first">우야라고</div>
+                <div class="msg__bubble">동해물과백두산이</div>
+              </div>
+            </div>
+            <div class="send__column">
+              <span class="timestamp">
+                오전 12시59분
+              </span>
+            </div>
+          </li>
+          <li class="receive">
+            <div class="receive__column">
+              <img src="img/person_1.jpg" class="m-avater profile__avatar" />
+              <div class="receive__contents">
+                <span class="msg__author">윤태훈</span>
+                <div class="msg__bubble first">밥해</div>
+              </div>
+            </div>
+            <div class="receive__column">
+              <span class="timestamp">
+                오전 1시 0분
+              </span>
+            </div>
+          </li>
+        </ul>
+      </main>
+      <div class="chat__write">
+        <div class="chat__write-column">
+          <i class="far fa-plus-square fa-2x"></i>
+          <input
+            type="text"
+            placeholder="Send message"
+            class="chat__write-input"
+            style="border:none;border-right:0px; border-top:0px; boder-left:0px; boder-bottom:0px;"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
+  </body>
+</html>

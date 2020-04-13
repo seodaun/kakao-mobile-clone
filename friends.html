@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://kit.fontawesome.com/883560396c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="css/nav-bar.css"/>
+        <title>Friends | Kakao Clone</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span class="status-bar_clock">13:53</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fas fa-signal"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-battery-three-quarters"></i>
+            </div>
+        </div>
+        <header class="header">
+            <div class="header__header-column">
+                <h1 class="header__title">친구</h1>
+            </div>
+            <div class="header__header-column">
+                <span class="header__icon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-user-plus"></i>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-music"></i>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-cog"></i>
+                </span>
+            </div>
+        </header>
+        <main class="friends">
+            <!---------------- User Profile------------->
+            <div class="friend__menu profile user">
+                <div class="profile__column">
+                    <img src="img/person.png" class="g-avatar profile__avatar"/>
+                    <div class="profile__content">
+                        <span class="profile__name">
+                            다운
+                        </span>
+                        <span class="profile__status">피곤해
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!---------------- Birthday Friend Profile------------->
+            <ul class="friends birthday__list">
+                <h5 class="friends__title">생일인 친구</h5>
+                <li class="profile">
+                    <div class="profile__column">
+                        <img src="img/person_2.jpg" class="profile__avatar"/>
+                        <div class="profile__content">
+                            <span class="profile__name">
+                                랄프
+                                <i class="fas fa-birthday-cake"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="profile__column"> 
+                        <div class = "friend__present-emoticon"> 이모티콘 선물 </div>
+                    </div>
+                </li>
+                <li class="profile">
+                    <div class="profile__column">
+                        <img src="img/person_1.jpg" class="profile__avatar"/>
+                        <div class="profile__content">
+                            <span class="profile__name">
+                                윤태훈
+                                <i class="fas fa-birthday-cake"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="profile__column"> 
+                        <div class = "friend__present-emoticon"> 이모티콘 선물 </div>
+                    </div>
+                </li>
+                <li class="profile">
+                    <div class="profile__column">
+                        <img src="img/cake.png" class="profile__avatar"/>
+                        <div class="profile__content">
+                            <span class="profile__name">
+                                친구의 생일을 확인해보세요!
+                                <span class="profile__cnt">2</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!------------------ Reference Friend ------------------->
+            <div class="friends reference__list">
+                <h5 class="friends__title">추천 친구</h5>
+                <div class="profile">
+                    <div class="profile__column">
+                        <img src="img/smile.jpg" class="profile__avatar"/>
+                        <div class="profile__content">
+                            <span class="profile__name">
+                                새로운 친구를 만나보세요!  
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------ Channel Friend ---------------->
+            <ul class="friends channel__list">
+                <h5 class="friends__title">채널</h5>
+                <li class="profile">
+                    <div class="profile__column">
+                        <img src="img/channel.png" class="profile__avatar">
+                        <div class="profile__content">
+                            <span class="profile__name">채널
+                                <span class="profile__cnt">1</span>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!------------------ Friend Profile----------------->
+            <ul class="friends__list">
+                <h5 class="friends__title">친구 2</h5>
+                <li class="profile">
+                    <div class="profile__column">
+                        <img src="img/person_2.jpg" class="profile__avatar"/>
+                        <div class="profile__content">
+                            <span class="profile__name">
+                                랄프
+                            </span>
+                            <span class="profile__status">살려주세요
+                            </span>
+                        </div>
+                    </div>
+                    <div class="profile__column">
+                        <div class="friend__now-listening">
+                            <span>
+                                노리노리 (mc노리야끼)
+                                <i class="fas fa-play"></i>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="profile">
+                    <div class="profile__column">
+                        <img src="img/person_1.jpg" class="profile__avatar"/>
+                        <div class="profile__content">
+                            <span class="profile__name">
+                                윤태훈
+                            </span>
+                            <span class="profile__status">배고파
+                            </span>
+                        </div>
+                    </div>
+                    <div class="profile__column">
+                        <div class="friend__now-listening">
+                            <span>
+                                노리노리 (mc노리야끼)
+                                <i class="fas fa-play"></i>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </header>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <a href="./friends.html" class="nav__list-link">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
+                    <i class="far fa-comment"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+<<<<<<< HEAD
+                <a href="./find.html" class="nav__list-link">
+                    <i class="fas fa-hashtag"></i>
+=======
+                <a href="./news.html" class="nav__list-link">
+                    <i class="fas fa-search"></i>
+>>>>>>> 2dd2fe19f8853691a7d5fe62a00551ab75fa2184
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.advertising{
+    height: 100px;
+    background-color: red;
+}
+
+.news-list{
+    list-style:none;
+}
+
+.news-list .news-title{
+    border-bottom: 1px solid grey; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.picture-news{
+    
+}
